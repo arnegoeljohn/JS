@@ -25,7 +25,7 @@ const BannerAbout = () => {
               Transform lives from the harsh reality of the streets to the
               warmth and comfort of genuine smiles
             </h1>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 text-sm">
+            <button className="bg-blue-400 text-white px-6 py-2 rounded hover:bg-blue-600 text-sm">
               Sponsor Now
             </button>
           </div>

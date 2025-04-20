@@ -25,8 +25,8 @@ const team = [
 const Contact2 = () => {
   return (
     <div className="text-center px-6 py-12 bg-gray-50">
-      <p className="text-sm text-gray-500 uppercase mb-2">Get to know us</p>
-      <h2 className="text-3xl font-semibold text-blue-600 mb-10">Our Dedicated Team</h2>
+      <small className="text-sm text-orange-400 uppercase mb-2">Get to know us</small>
+      <h2 className="text-3xl font-semibold text-blue-400 mb-10">Our Dedicated Team</h2>
       <div className="flex flex-col md:flex-row justify-center gap-10">
         {team.map((member, index) => (
           <div key={index} className="text-center">
@@ -35,9 +35,9 @@ const Contact2 = () => {
               alt={member.name}
              
             />
-            <h3 className="text-lg font-semibold">{member.name}</h3>
-            <p className="text-sm text-gray-500">{member.role}</p>
-            <a href={`mailto:${member.email}`} className="text-blue-500 text-sm">
+            <h3 className="text-lg font-semibold text-blue-400">{member.name}</h3>
+            <p className="text-sm  text-gray-700">{member.role}</p>
+            <a href={`mailto:${member.email}`} className="text-blue-300 text-sm">
               {member.email}
             </a>
           </div>

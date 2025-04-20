@@ -6,7 +6,7 @@ const Strategy1 = () => {
       
       <div>
         <small className="text-orange-500 uppercase mb-2">The Problem</small>
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Rescuing Lives from Poverty and Abuse</h2>
+        <h2 className="text-2xl font-bold text-blue-400 mb-4">Rescuing Lives from Poverty and Abuse</h2>
         <p className="text-gray-600 mb-8">
           Historically in the Philippines, due to widespread poverty, the problem of abandoned, abused, or dangerously neglected (AADN) children has been remarkably large...
         </p>

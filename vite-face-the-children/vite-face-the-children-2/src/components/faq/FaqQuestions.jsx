@@ -63,7 +63,7 @@ const FaqQuestions = () => {
                 relative
               `}
             >
-              <span className="mr-4 font-bold text-blue-500">
+              <span className="mr-4 font-bold text-blue-400">
                 {String(index + 1).padStart(2, '0')}
               </span>
               <span className="inline-block w-[calc(100%-2rem)]">{faq.question}</span>

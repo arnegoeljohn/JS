@@ -2,12 +2,12 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 flex flex-col-reverse flex-col lg:flex-row items-center justify-between">
+    <section className="max-w-7xl mx-auto px-4 flex flex-col-reverse lg:flex-row items-center justify-between">
       <div className="max-w-xl">
         <h4 className="text-orange-500 text-sm font-medium uppercase">
           Our Solutions
         </h4>
-        <h2 className="text-3xl font-bold text-blue-500 mt-2 mb-4">
+        <h2 className="text-3xl font-bold text-blue-400 mt-2 mb-4">
           Services We Provide
         </h2>
         <p className="text-gray-700 mb-8">

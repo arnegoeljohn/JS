@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse flex-col lg:flex-row items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse lg:flex-row items-center justify-between">
         <div className="max-w-xl">
           <p className="text-xs text-orange-500 uppercase mb-2">
             Creating Opportunity
